@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Debugger_InvalidTabsToIndentException</fullName>
+        <categories>Exception</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Debugger.InvalidTabsToIndentException</shortDescription>
+        <value>Cannot be null and must be greater or equal to zero</value>
+    </labels>
+    <labels>
+        <fullName>Exception_Cause</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Exception: Cause</shortDescription>
+        <value>Cause</value>
+    </labels>
+    <labels>
+        <fullName>Exception_Line_Number</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Exception: Line Number</shortDescription>
+        <value>Line Number</value>
+    </labels>
+    <labels>
+        <fullName>Exception_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Exception: Message</shortDescription>
+        <value>Message</value>
+    </labels>
+    <labels>
+        <fullName>Exception_Stack_Trace</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Exception: Stack Trace</shortDescription>
+        <value>Stack Trace</value>
+    </labels>
+    <labels>
+        <fullName>Exception_Type_Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Exception: Type Name</shortDescription>
+        <value>Type Name</value>
+    </labels>
+</CustomLabels>

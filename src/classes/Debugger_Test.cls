@@ -1,5 +1,5 @@
 @IsTest
-public with sharing class Debugger_Test {
+public with sharing class Debugger_TEST {
 	/*
 	██████╗██╗  ██╗ █████╗██████╗██████╗ ██████╗██╗ █████╗ ███╗   ██╗██████╗
 	██╔═══╝╚██╗██╔╝██╔═══╝██╔═══╝██╔══██╗╚═██╔═╝██║██╔══██╗████╗  ██║██╔═══╝
@@ -328,7 +328,7 @@ public with sharing class Debugger_Test {
 			// Boolean equals(Object that)
 			for(Object that : new Object[] {
 				null, 
-				new Debugger_Test(), 
+				new Debugger_TEST(), 
 				d, 
 				d.clone()
 			}) {
@@ -498,7 +498,7 @@ public with sharing class Debugger_Test {
 		};
 		final Object[] values = new Object[] {
 			null, 
-			new Debugger_Test(), 
+			new Debugger_TEST(), 
 			maps[1], 
 			sample, 
 			exceptions[1], 
@@ -771,7 +771,7 @@ public with sharing class Debugger_Test {
 				// Boolean equals(Object that)
 				for(Object that : new Object[] {
 					null, 
-					new Debugger_Test(), 
+					new Debugger_TEST(), 
 					v, 
 					v.clone()
 				}) {
@@ -867,7 +867,7 @@ public with sharing class Debugger_Test {
 		};
 		final Type[] exceptionTypes = new Type[] {
 			null, 
-			Debugger_Test.class, 
+			Debugger_TEST.class, 
 			TestException.class
 		};
 
@@ -1216,7 +1216,7 @@ public with sharing class Debugger_Test {
 			// Boolean equals(Object that)
 			for(Object that : new Object[] {
 				null, 
-				new Debugger_Test(), 
+				new Debugger_TEST(), 
 				d, 
 				tab, 
 				tab.clone()
@@ -1318,7 +1318,7 @@ public with sharing class Debugger_Test {
 			'Datetime' => Datetime.now(), 
 			'Integer' => Crypto.getRandomInteger(), 
 			'Boolean' => true, 
-			'Not Debuggable' => new Debugger_Test()
+			'Not Debuggable' => new Debugger_TEST()
 		};
 	
 		// --------------------------------  Start Test  -------------------------------- 
@@ -1442,7 +1442,7 @@ public with sharing class Debugger_Test {
 				'Datetime' => Datetime.now(), 
 				'Integer' => Crypto.getRandomInteger(), 
 				'Boolean' => true, 
-				'Not Debuggable' => new Debugger_Test()
+				'Not Debuggable' => new Debugger_TEST()
 			}, 
 			'composite' => new Map<String, Object> {
 				'null' => null, 
@@ -1458,7 +1458,7 @@ public with sharing class Debugger_Test {
 				'Datetime' => Datetime.now(), 
 				'Integer' => Crypto.getRandomInteger(), 
 				'Boolean' => true, 
-				'Not Debuggable' => new Debugger_Test(), 
+				'Not Debuggable' => new Debugger_TEST(), 
 				'Composite Debug' => new Map<String, Object> {
 					'null' => null, 
 					'String' => 'String', 
